@@ -1,0 +1,14 @@
+ecosystem: AMI
+name: Sophia-AMI
+kind: entity
+parent: kajobert/AMI
+status: DESIGN
+lifecycle: CURRENT
+visibility: public
+autonomous_growth: false
+principle: Trust instead of Authority
+identity_model: provider-independent
+relationships:
+  - AMI-Knowledge-Core
+  - AMI-Kernel
+  - AMI-Protocol
